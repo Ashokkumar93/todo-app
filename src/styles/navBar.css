@@ -1,0 +1,33 @@
+.top-navbar {
+    background-color: #6f6f6f;
+    color: #ffffff;
+    padding: 0px 40px;
+    display: block;
+    line-height: 2.3;
+    position: relative;
+}
+
+.top-navbar .navbar-header {
+    display: inline-flex;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.top-navbar .navbar-list {
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.top-navbar .navbar-list .navbar-list-item{
+    cursor: pointer;
+}
+
+.top-navbar .navbar-list .navbar-list-item:hover {
+    color: #f2f2f2;
+}
